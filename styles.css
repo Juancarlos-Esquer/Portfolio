@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Quicksand:wght@600&family=Sedgwick+Ave&family=Varela+Round&display=swap');
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp5819605.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    /* position:relative; */
+}
+p {
+    margin-left:10%;
+    margin-top:10%;
+    font-size:25px;
+    font-family:'Kalam', cursive;
+
+}
+header {
+    margin-left:10%;
+    font-size:50px;
+    letter-spacing:5px;
+    font-family:'Kalam', cursive;
+}
+header#header-2 {
+    margin-left:10%;
+    font-size:50px;
+    letter-spacing:10px;
+}
+div.content {
+    /* display:grid;
+    grid-template-columns:1fr; */
+    width:66.67%;
+}
+p#my-desc {
+    margin-top:2%;
+}
+div.icons {
+    float:right;
+}
+img#calculator {
+  width:150px;
+  height:150px;
+    filter:drop-shadow(10px 10px);
+}
+img#soccer {
+  width:150px;
+  height:150px;
+  float:right;
+  filter:drop-shadow(10px 10px orange);
+}
+img#guessing {
+    width:150px;
+    height:150px;
+    filter:drop-shadow(10px 10px cyan);
+    position:absolute;
+    right:10px;
+    margin-top:25px;
+}
+img#doge {
+    width:150px;
+    height:150px;
+    float:right;
+    margin-top:25px;
+    filter:drop-shadow(10px 10px violet);
+}
+img#dancing-guy {
+    width: 180px;
+    height:180px;
+    filter:drop-shadow(10px 10px pink);
+}
+img#search-bar {
+    width:50px;
+    height:50px;
+}
+img#discord {
+  width:125px;
+  height:125px;
+  margin-top:40px;
+  margin-left:15px;
+  /* position:absolute;
+  right:250px;
+  top:510px; */
+  filter:drop-shadow(10px 10px black);
+}
+.nav {
+    overflow:visible;
+    background-color: #333;
+    position: absolute;
+    right:0.01%;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    display:inline-block;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .nav a:hover {
+    background: #f1f1f1;
+    color: black;
+  }
+  .nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  img#edge {
+    width:50px;
+    height: 50px;
+  }
+  img#note-pad{
+    width:50px;
+    height:50px;
+  }
+  img#file {
+    width:50px;
+    height:50px;
+  }
+  img#windows {
+    width:50px;
+    height:50px;
+  }
+  img#vs-code{
+    width:50px;
+    height:50px;
+  }
+  nav#top-bar{
+    opacity: 0%;
+  }
+  /* div#mybg-div {
+    border:5px solid #FF0000; width:200px; height:200px;
+  } */
+img#hollow-knight {
+  margin-top:5.5%;
+  animation: move 10s linear 5s infinite;
+}
+@-webkit-keyframes move {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(-70vw);
+  }
+}
